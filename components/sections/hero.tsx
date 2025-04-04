@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="w-full mx-auto px-20 py-6 h-screen pt-[190px]">
+    <div className="w-full mx-auto px-4 lg:px-20 py-6 h-screen pt-[190px]">
       <div className="flex flex-col gap-4">
         <div className="text-2xl px-3 py-2 capitalize text-secondary-400 border-2 border-secondary-400 rounded-2xl w-fit">
           Digital tech – Web app development
@@ -27,7 +27,7 @@ export default function Hero() {
         </Link>
       </div>
       <div className="hidden lg:block">
-        <div className="absolute bottom-0 right-0 motion-safe:animate-bounce z-20">
+        <div className="lg:absolute bottom-0 right-0 motion-safe:animate-bounce z-20">
           <Image
             src="/images/hero-good.png"
             alt="Dualiti"
@@ -44,7 +44,7 @@ export default function Hero() {
           />
         </div>
       </div>
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 ">
+      <div className="lg:absolute bottom-4 w-full ">
         <div className="w-full flex gap-2 items-center justify-center text-center text-base text-mono-800">
           <Image
             src="/images/asterisk.png"

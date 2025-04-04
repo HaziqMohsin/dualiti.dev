@@ -1,4 +1,3 @@
-
 export const Footer = () => {
   return (
     <div className="relative w-full mx-auto flex flex-col items-center justify-center bg-secondary-900 h-screen">
@@ -24,7 +23,6 @@ export const Footer = () => {
           Built with brain 🧠 and heart ❤️ by the folks at Dualiti.
         </div>
       </div>
-      <div className="relative"></div>
     </div>
   );
 };
