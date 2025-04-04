@@ -5,8 +5,8 @@ import "./globals.css";
 const font = Nunito_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dualiti",
-  description: "Build your project with Dualiti"
+  title: "Dualiti.dev",
+  description: "Digital Tech – Web App Development"
 };
 
 export default function RootLayout({
