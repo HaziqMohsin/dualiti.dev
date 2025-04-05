@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="flex flex-col gap-4">
         <div className="relative mb-2 z-10">
           <Label color="secondary">Digital tech – Web app development</Label>
-          <h1 className="text-6xl lg:text-9xl font-black uppercase text-secondary-800">
+          <h1 className="text-6xl lg:text-9xl font-black uppercase text-secondary-800 pt-6">
             Let&apos;s Build <br />
             Something <br />
             Together

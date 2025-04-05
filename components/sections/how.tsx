@@ -43,7 +43,7 @@ export default function How() {
         <div className="relative lg:w-1/2 mx-auto flex items-center justify-center">
           <div className="z-10 relative">
             <Label color="primary">The Dualiti Way</Label>
-            <div className="p-2 flex flex-col gap-4">
+            <div className="p-4 flex flex-col gap-4">
               <div className="text-2xl text-mono-100 flex-col gap-1">
                 <div className="pt-2 font-bold">Understand the problem</div>
                 <div className="text-xl italic text-mono-400">

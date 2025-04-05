@@ -10,8 +10,8 @@ export default function Home() {
       <Hero />
       <What />
       <How />
-      <Why />
       <Work />
+      <Why />
     </>
   );
 }

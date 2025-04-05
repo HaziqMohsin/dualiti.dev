@@ -12,14 +12,14 @@ const cards: CardProps[] = [
     title: "Clocked-In",
     description:
       "A simple, no-nonsense clock-in and clock-out app built for ground teams. Track attendance with ease, no more guesswork, just reliable logs, all in real time.",
-    imageUrl: "/images/work-sample.jpeg",
+    imageUrl: "/images/clockedin.png",
     href: "/",
   },
   {
     title: "QuoteMate",
     description:
       "A slick cost calculator that helps sales reps create quotations on the spot. No hidden fees, no awkward math, transparent pricing your customers can trust.",
-    imageUrl: "/images/work-sample.jpeg",
+    imageUrl: "/images/business.png",
     href: "/",
   },
   {
@@ -33,7 +33,7 @@ const cards: CardProps[] = [
     title: "Social Activities",
     description:
       "A platform for activity providers and outdoor lovers to connect. Book, manage, and discover experiences, all in one place.",
-    imageUrl: "/images/work-sample.jpeg",
+    imageUrl: "/images/hiking.png",
     href: "/",
   },
 ];

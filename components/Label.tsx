@@ -15,7 +15,7 @@ export const Label = ({ children, color = "primary", className = "" }: LabelProp
     <div
       style={{ transform: "rotate(-6deg)" }}
       className={cn(
-        "absolute z-40 top-[-20px] left-[-20px] text-lg lg:text-2xl px-3 py-2 capitalize rounded-md w-fit backdrop-blur-sm bg-white/30",
+        "absolute z-40 top-[-20px] left-[20px] text-lg lg:text-2xl px-3 py-2 capitalize rounded-md w-fit backdrop-blur-sm bg-white/30",
         colorClass,
         className
       )}

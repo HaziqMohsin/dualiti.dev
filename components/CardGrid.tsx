@@ -10,22 +10,22 @@ const cards: CardProps[] = [
   {
     title: "Human-first approach",
     description: "because your users matter",
-    imageSrc: "/images/human-approach.png",
+    imageSrc: "/images/human-approach-2.png",
   },
   {
     title: "Research-driven ideas",
     description: "no guessing games",
-    imageSrc: "/images/research-driven.png",
+    imageSrc: "/images/research-driven-2.png",
   },
   {
     title: "Design + Dev in one team",
     description: "no awkward handoffs",
-    imageSrc: "/images/all-one-team.png",
+    imageSrc: "/images/all-one-team-2.png",
   },
   {
     title: "Chill team",
     description: "with serious skills",
-    imageSrc: "/images/chill-guy.png",
+    imageSrc: "/images/chill-guy-2.png",
   },
 ];
 
@@ -36,7 +36,7 @@ export default function CardGrid() {
         {cards.map((card, index) => (
           <div
             key={index}
-            className="flex flex-col items-center text-center"
+            className="flex flex-col items-center text-center gap-4"
           >
             <div className="w-72 h-72 relative">
               <Image
@@ -46,8 +46,14 @@ export default function CardGrid() {
                 objectFit="contain"
               />
             </div>
-            <h3 className="text-2xl font-bold text-primary-100">{card.title}</h3>
-            <p className="text-lg italic text-primary-100/60">{card.description}</p>
+            <div className="flex flex-col gap-0">
+              <h3 className="text-2xl font-bold text-primary-100">
+                {card.title}
+              </h3>
+              <p className="text-lg italic text-primary-100/60">
+                {card.description}
+              </p>
+            </div>
           </div>
         ))}
       </div>
