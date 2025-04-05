@@ -10,7 +10,7 @@ export const Header = () => {
             alt="Dualiti"
             width={120}
             height={120}
-            className="w-24 sm:w-24 md:w-24 lg:w-[120px] h-auto"
+            className="w-16 sm:w-16 md:w-20 lg:w-[120px] h-auto"
           />
         </div>
         <div className="flex items-center gap-x-3">
