@@ -1,5 +1,5 @@
 import { Header } from "@/app/(main)/header";
-import { Footer } from "@/app/(main)/footer";
+// import { Footer } from "@/app/(main)/footer";
 
 type Props = {
   children: React.ReactNode;
@@ -12,7 +12,7 @@ const MainLayout = ({ children }: Props) => {
         <main className="flex flex-col items-center justify-center">
           {children}
         </main>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     )
 }

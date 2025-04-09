@@ -26,6 +26,15 @@ export default function Hero() {
         </Link>
       </div>
       <div className="">
+      {/* <div className="absolute z-0 flex right-0 bottom-0">
+          <Image
+            src="/images/hero-system.png"
+            alt="Dualiti"
+            width={800}
+            height={800}
+            className="w-44 sm:w-44 md:w-100 lg:w-[800px] h-auto"
+          />
+        </div> */}
         <div className="absolute bottom-24 lg:bottom-0 right-0 motion-safe:animate-bounce z-20">
           <Image
             src="/images/hero-good.png"

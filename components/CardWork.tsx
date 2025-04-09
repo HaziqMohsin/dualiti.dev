@@ -13,28 +13,28 @@ const cards: CardProps[] = [
     description:
       "A simple, no-nonsense clock-in and clock-out app built for ground teams. Track attendance with ease, no more guesswork, just reliable logs, all in real time.",
     imageUrl: "/images/clockedin.png",
-    href: "/",
+    href: "https://timeclockapp.dualiti.dev/",
   },
   {
     title: "QuoteMate",
     description:
       "A slick cost calculator that helps sales reps create quotations on the spot. No hidden fees, no awkward math, transparent pricing your customers can trust.",
     imageUrl: "/images/business.png",
-    href: "/",
+    href: "https://woootcostapp.dualiti.dev/",
   },
   {
     title: "Share Moments",
     description:
       "Guests upload photos from your event and see them instantly displayed on the big screen. Memories meet magic.",
     imageUrl: "/images/work-sample.jpeg",
-    href: "/",
+    href: "https://sharemoments.dualiti.dev/",
   },
   {
     title: "Social Activities",
     description:
       "A platform for activity providers and outdoor lovers to connect. Book, manage, and discover experiences, all in one place.",
     imageUrl: "/images/hiking.png",
-    href: "/",
+    href: "https://exploracy.com/",
   },
 ];
 
@@ -46,7 +46,9 @@ export default function CardWork() {
           <Link
             key={index}
             href={card.href}
-            className="group relative h-[550px] w-full bg-cover bg-center rounded-xl overflow-hidden shadow-lg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative h-[550px] w-full bg-cover bg-center rounded-3xl overflow-hidden shadow-lg"
           >
             {/* Background image with gradient overlay */}
             <div
@@ -56,7 +58,7 @@ export default function CardWork() {
               }}
             />
             {/* Overlay */}
-            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 backdrop-blur-sm bg-primary-400/30 transition-opacity duration-300" />
+            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 backdrop-blur-md bg-primary-400/30 transition-opacity duration-300" />
 
             {/* Text content */}
             <div className="absolute bottom-4 group-hover:bottom-1/2 group-hover:translate-y-1/2 left-0 right-0 px-4 text-white text-center transition-all duration-300">

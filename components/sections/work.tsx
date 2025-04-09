@@ -2,7 +2,7 @@ import CardWork from "@/components/CardWork";
 
 export default function Work() {
   return (
-    <div className="relative w-full mx-auto flex flex-col items-center justify-center bg-primary-400 py-24 lg:py-52 px-4 lg:px-20">
+    <div className="relative w-full lg:h-screen mx-auto flex flex-col items-center justify-center bg-primary-400 py-24 lg:py-52 px-4 lg:px-20">
       <div className="w-full flex flex-col gap-12 text-right">
         <div className="w-full flex flex-col gap-4 items-end justify-end text-right">
           <div className="text-5xl lg:text-9xl text-secondary-900 font-black uppercase">
