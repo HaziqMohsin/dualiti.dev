@@ -26,7 +26,7 @@ const BentoGrid = ({ children, className, ...props }: BentoGridProps) => {
   return (
     <div
       className={cn(
-        "grid w-full auto-rows-[22rem] grid-cols-3 gap-4",
+        "grid w-full lg:auto-rows-[22rem] grid-cols-3 gap-4",
         className
       )}
       {...props}
@@ -87,13 +87,18 @@ const BentoCard = ({
 
         <div
           className={cn(
-            "pointer-events-auto absolute bottom-0 flex w-full translate-y-10 transform-gpu flex-row items-center p-4 opacity-0 transition-all duration-3700 ease-in-out group-hover:translate-y-0 group-hover:opacity-100"
+            "pointer-events-auto lg:absolute bottom-0 flex w-full lg:translate-y-10 transform-gpu text-mono-800 flex-row items-center p-4 lg:opacity-0 transition-all duration-700 ease-in-out group-hover:translate-y-0 group-hover:opacity-100"
           )}
         >
-          <div className="flex flex-row px-4 py-2 items-center justify-center hover:bg-mono-100 text-mono-100 hover:text-mono-800 rounded-xl">
+          <div className="hidden lg:flex flex-row gap-2 hover:gap-6 px-4 py-2 items-center justify-center hover:bg-mono-100 text-mono-100 hover:text-mono-800 rounded-xl transition-all duration-500">
             {cta}
             <ArrowRightIcon className="ms-2 h-5 w-5 rtl:rotate-180" />
           </div>
+          <div className="flex lg:hidden flex-row px-4 py-2 items-center justify-center text-mono-800rounded-xl">
+            {cta}
+            <ArrowRightIcon className="ms-2 h-5 w-5 rtl:rotate-180" />
+          </div>
+
         </div>
         <div className="pointer-events-none absolute inset-0 transform-gpu transition-all duration-300 group-hover:bg-black/[.03] group-hover:dark:bg-neutral-800/10" />
       </div>

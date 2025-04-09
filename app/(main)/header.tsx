@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export const Header = () => {
     return (
-      <header className="absolute top-0 px-8 lg:px-20 py-8 flex items-center justify-between z-10">
+      <header className="absolute top-0 px-8 lg:px-20 py-8 flex items-center justify-between z-10 lg:z-20">
         <div className="flex items-center gap-x-3">
           <Image
             src="/logo/logo_standalone_light.svg"
