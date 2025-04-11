@@ -105,7 +105,7 @@ const features = [
 
 export default function HeroGrid() {
   return (
-    <div className="relative w-full flex flex-col lg:flex-row items-center lg:h-screen px-4 py-36 lg:px-20 lg:py-[200px] gap-4 bg-primary-500 z-0">
+    <div className="relative w-full flex flex-col xl:flex-row items-center md:h-fit xl:h-screen px-4 py-36 lg:py-44 xl:px-20 xl:py-52 gap-4 bg-primary-500 z-0">
       <div className="flex flex-col gap-4">
         <div className="relative w-full flex flex-col mb-2 z-10 items-center justify-center">
           <div className="absolute z-40 top-[-10px] left-0 lg:left-[20px] ">
