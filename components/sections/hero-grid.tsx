@@ -8,7 +8,6 @@ import Work from "@/components/sections/work";
 import Why from "@/components/sections/why";
 import UnderMaintenance from "@/components/sections/underMaintenance";
 
-
 const features = [
   {
     // iconComponent: renderIcon(LandPlot),
@@ -26,7 +25,8 @@ const features = [
       />
     ),
     fullScreenContent: <Work />,
-    className: "lg:row-start-1 lg:row-end-4 lg:col-start-2 lg:col-end-3 hover:bg-secondary-800 text-mono-100 transition-all duration-700 ease-in-out",
+    className:
+      "lg:row-start-1 lg:row-end-4 lg:col-start-2 lg:col-end-3 hover:bg-secondary-800 text-mono-100 transition-all duration-700 ease-in-out",
   },
   {
     // iconComponent: renderIcon(Album),
@@ -44,12 +44,14 @@ const features = [
       />
     ),
     fullScreenContent: <UnderMaintenance />,
-    className: "lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-3 hover:bg-[#FFD000] text-mono-100 transition-all duration-700 ease-in-out",
+    className:
+      "lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-3 hover:bg-[#FFD000] text-mono-100 transition-all duration-700 ease-in-out",
   },
   {
     // iconComponent: renderIcon(SquareMousePointer),
     name: "Behind the screens",
-    description: "We build with purpose, powered by curiosity and clean design.",
+    description:
+      "We build with purpose, powered by curiosity and clean design.",
     // href: "/",
     cta: "Learn more",
     background: (
@@ -61,8 +63,9 @@ const features = [
         height={320}
       />
     ),
-    fullScreenContent: <What/>,
-    className: "lg:col-start-1 lg:col-end-2 lg:row-start-3 lg:row-end-4 hover:bg-[#38427B] text-mono-100 transition-all duration-700 ease-in-out",
+    fullScreenContent: <What />,
+    className:
+      "lg:col-start-1 lg:col-end-2 lg:row-start-3 lg:row-end-4 hover:bg-[#38427B] text-mono-100 transition-all duration-700 ease-in-out",
   },
   {
     // iconComponent: renderIcon(Mail),
@@ -80,13 +83,13 @@ const features = [
       />
     ),
     fullScreenContent: <Contact />,
-    className: "lg:col-start-3 lg:col-end-3 lg:row-start-1 lg:row-end-2 hover:bg-[#6E24DD] text-mono-100 transition-all duration-700 ease-in-out",
+    className:
+      "lg:col-start-3 lg:col-end-3 lg:row-start-1 lg:row-end-2 hover:bg-[#6E24DD] text-mono-100 transition-all duration-700 ease-in-out",
   },
   {
     // iconComponent: renderIcon(BookUser),
     name: "Who even are we?",
-    description:
-      "Just a bunch of makers turning ideas into digital magic.",
+    description: "Just a bunch of makers turning ideas into digital magic.",
     // href: "/",
     cta: "Learn more",
     background: (
@@ -99,7 +102,8 @@ const features = [
       />
     ),
     fullScreenContent: <Why />,
-    className: "lg:col-start-3 lg:col-end-3 lg:row-start-2 lg:row-end-4 hover:bg-secondary-400 text-mono-100 transition-all duration-700 ease-in-out",
+    className:
+      "lg:col-start-3 lg:col-end-3 lg:row-start-2 lg:row-end-4 hover:bg-secondary-400 text-mono-100 transition-all duration-700 ease-in-out",
   },
 ];
 
@@ -109,7 +113,9 @@ export default function HeroGrid() {
       <div className="flex flex-col gap-4">
         <div className="relative w-full flex flex-col mb-2 z-10 items-center justify-center">
           <div className="absolute z-40 top-[-10px] left-0 lg:left-[20px] ">
-            <Label color="secondary" className="">Digital tech – Web app development</Label>
+            <Label color="secondary" className="">
+              Digital tech – Web app development
+            </Label>
           </div>
           <h1 className="text-6xl lg:text-8xl font-black uppercase text-secondary-800 pt-6">
             Let&apos;s Build <br />
