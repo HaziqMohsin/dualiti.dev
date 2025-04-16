@@ -26,7 +26,7 @@ export default function Hero() {
         </Link>
       </div>
       <div className="">
-      {/* <div className="absolute z-0 flex right-0 bottom-0">
+        {/* <div className="absolute z-0 flex right-0 bottom-0">
           <Image
             src="/images/hero-system.png"
             alt="Dualiti"
