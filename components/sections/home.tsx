@@ -4,8 +4,8 @@ import Image from "next/image";
 import { BentoCard, BentoGrid } from "@/components/magicui/bento-grid";
 import What from "@/components/sections/what";
 import Contact from "@/components/sections/contact";
-import Work from "@/components/sections/work";
-import Why from "@/components/sections/why";
+import Work from "@/components/sections/workNew";
+import Why from "@/components/sections/whyNew";
 import UnderMaintenance from "@/components/sections/underMaintenance";
 
 const features = [
