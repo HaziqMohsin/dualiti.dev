@@ -45,7 +45,7 @@ const features = [
     ),
     fullScreenContent: <UnderMaintenance />,
     className:
-      "lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-3 hover:bg-[#FFD000] text-mono-100 transition-all duration-700 ease-in-out",
+      "lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-2 hover:bg-[#FFD000] text-mono-100 transition-all duration-700 ease-in-out",
   },
   {
     // iconComponent: renderIcon(SquareMousePointer),
@@ -65,7 +65,7 @@ const features = [
     ),
     fullScreenContent: <What />,
     className:
-      "lg:col-start-1 lg:col-end-2 lg:row-start-3 lg:row-end-4 hover:bg-[#38427B] text-mono-100 transition-all duration-700 ease-in-out",
+      "lg:col-start-1 lg:col-end-2 lg:row-start-2 lg:row-end-4 hover:bg-[#38427B] text-mono-100 transition-all duration-700 ease-in-out",
   },
   {
     // iconComponent: renderIcon(Mail),
@@ -84,7 +84,7 @@ const features = [
     ),
     fullScreenContent: <Contact />,
     className:
-      "lg:col-start-3 lg:col-end-3 lg:row-start-1 lg:row-end-2 hover:bg-[#6E24DD] text-mono-100 transition-all duration-700 ease-in-out",
+      "lg:col-start-3 lg:col-end-3 lg:row-start-1 lg:row-end-3 hover:bg-[#6E24DD] text-mono-100 transition-all duration-700 ease-in-out",
   },
   {
     // iconComponent: renderIcon(BookUser),
@@ -103,15 +103,15 @@ const features = [
     ),
     fullScreenContent: <Why />,
     className:
-      "lg:col-start-3 lg:col-end-3 lg:row-start-2 lg:row-end-4 hover:bg-secondary-400 text-mono-100 transition-all duration-700 ease-in-out",
+      "lg:col-start-3 lg:col-end-3 lg:row-start-3 lg:row-end-4 hover:bg-secondary-400 text-mono-100 transition-all duration-700 ease-in-out",
   },
 ];
 
 const Home = () => {
   return (
-    <div className="flex flex-col lg:flex-row lg:items-center p-4 gap-4">
-      <div className="flex-1 relative">
-        <div className="absolute z-40 top-[-10px] left-0 lg:left-[20px] ">
+    <div className="flex flex-col lg:flex-row lg:items-center p-4 gap-2 py-36 lg:py-0 w-full">
+      <div className="flex-1 relative pl-10 flex justify-center">
+        <div className="absolute z-40 top-[-10px] left-0 lg:left-[60px] ">
           <Label color="secondary" className="">
             Digital tech – Web app development
           </Label>
@@ -121,7 +121,7 @@ const Home = () => {
           Something Together
         </h1>
       </div>
-      <div className="flex-1 w-full">
+      <div className="max-w-md lg:max-w-none lg:w-full mx-auto flex-1">
         <BentoGrid className="lg:grid-rows-3 h-dvh py-10">
           {features.map((feature) => (
             <BentoCard key={feature.name} {...feature} />

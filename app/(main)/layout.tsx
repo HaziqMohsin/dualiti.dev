@@ -10,7 +10,7 @@ const MainLayout = ({ children }: Props) => {
   return (
     <div className="w-screen min-h-screen flex flex-col bg-primary-400 lg:overflow-y-hidden relative">
       <Header />
-      <main className="flex lg:items-center justify-center h-dvh">
+      <main className="flex lg:items-center justify-center h-dvh w-full">
         {children}
       </main>
       {/* <Footer /> */}
