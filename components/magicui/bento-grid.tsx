@@ -61,7 +61,7 @@ const BentoCard = ({
       <div
         key={name}
         className={cn(
-          "group relative col-span-3 flex flex-col justify-between overflow-hidden rounded-3xl border-2 border-primary-300",
+          "group relative  flex flex-col justify-between overflow-hidden rounded-3xl border-2 border-primary-300",
           // light styles
           "bg-background [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)]",
           // dark styles
@@ -98,7 +98,6 @@ const BentoCard = ({
             {cta}
             <ArrowRightIcon className="ms-2 h-5 w-5 rtl:rotate-180" />
           </div>
-
         </div>
         <div className="pointer-events-none absolute inset-0 transform-gpu transition-all duration-300 group-hover:bg-black/[.03] group-hover:dark:bg-neutral-800/10" />
       </div>
