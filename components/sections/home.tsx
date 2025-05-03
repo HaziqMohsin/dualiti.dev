@@ -109,8 +109,8 @@ const features = [
 
 const Home = () => {
   return (
-    <div className="flex flex-col lg:flex-row lg:items-center p-4 gap-2 py-36 lg:py-0 w-full">
-      <div className="flex-1 relative px-10 flex justify-center">
+    <div className="flex flex-col lg:flex-row lg:items-center p-4 py-36 lg:py-0 w-full">
+      <div className="flex-1 relative pl-10 flex justify-center">
         <div className="absolute z-40 top-[-10px] left-0 lg:left-[60px] ">
           <Label color="secondary" className="">
             Digital tech – Web app development
@@ -122,7 +122,7 @@ const Home = () => {
         </h1>
       </div>
       <div className="w-full flex-1">
-        <BentoGrid className="grid-cols-1 lg:grid-cols-3 lg:grid-rows-3 h-dvh py-10">
+        <BentoGrid className="grid-cols-1 lg:grid-cols-3 lg:grid-rows-3 h-dvh py-10 lg:py-28">
           {features.map((feature) => (
             <BentoCard key={feature.name} {...feature} />
           ))}
