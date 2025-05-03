@@ -1,4 +1,5 @@
-import HeroGrid from "@/components/sections/hero-grid";
+// import HeroGrid from "@/components/sections/hero-grid";
+import HomeSection from "@/components/sections/home";
 // import How from "@/components/sections/how";
 // import What from "@/components/sections/what";
 // import Why from "@/components/sections/why";
@@ -7,8 +8,9 @@ import HeroGrid from "@/components/sections/hero-grid";
 export default function Home() {
   return (
     <>
+      <HomeSection />
       {/* <Hero /> */}
-      <HeroGrid />
+      {/* <HeroGrid /> */}
       {/* <What /> */}
       {/* <How /> */}
       {/* <Work /> */}
